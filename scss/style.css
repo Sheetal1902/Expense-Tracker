@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+.plus {
+  border: 1px solid #0cb95a;
+  box-shadow: 1px 2px 6px #2e384d;
+}
+.plus h4 {
+  color: #0cb95a;
+}
+.plus span i {
+  color: #0cb95a;
+}
+
+.minus {
+  border: 1px solid #ef3434;
+  box-shadow: 1px 2px 6px #2e384d;
+}
+.minus h4 {
+  color: #ef3434;
+}
+.minus span i {
+  color: #ef3434;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgb(219, 216, 216);
+  width: 75rem;
+  padding: 5rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem rgba(0, 0, 0, 0.35);
+}
+.container .expense-title {
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  color: #2e384d;
+  text-shadow: 1px 2px 6px #2e384d;
+}
+.container .balance {
+  width: 65rem;
+  height: 20rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 0.4rem 0.4rem 0.5rem 0.4rem rgba(0, 0, 0, 0.35);
+}
+.container .balance h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #2e384d;
+}
+.container .balance h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2e384d;
+}
+.container .inc-exp-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.container .inc-exp-container .income {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
+  height: 13rem;
+  background-color: #fff;
+  padding: 0rem 3rem 0rem 3rem;
+  border: 0.3rem solid #0cb95a;
+  box-shadow: 1px 2px 6px #0cb95a;
+  border-radius: 10px;
+}
+.container .inc-exp-container .income h2 {
+  font-size: 3.5rem;
+  color: #0cb95a;
+}
+.container .inc-exp-container .income h4 {
+  font-size: 1.8rem;
+  color: #2e384d;
+  text-transform: uppercase;
+}
+.container .inc-exp-container .expense {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
+  height: 13rem;
+  background-color: #fff;
+  padding: 0rem 3rem 0rem 3rem;
+  border: 0.3rem solid #ef3434;
+  box-shadow: 1px 2px 6px #ef3434;
+  border-radius: 10px;
+}
+.container .inc-exp-container .expense h2 {
+  font-size: 3.5rem;
+  color: #ef3434;
+}
+.container .inc-exp-container .expense h4 {
+  font-size: 1.8rem;
+  color: #2e384d;
+  text-transform: uppercase;
+}
+.container .history .title-history {
+  font-size: 3.5rem;
+  color: #2e384d;
+  padding-bottom: 2.5rem;
+  text-shadow: 1px 2px 6px #2e384d;
+}
+.container .history .history-box {
+  height: 34rem;
+  overflow: hidden;
+}
+.container .history .history-box:hover {
+  overflow: scroll;
+  padding-right: 1.5rem;
+}
+.container .history .history-box li {
+  list-style: none;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+}
+.container .history .history-box li h4 {
+  font-size: 2rem;
+}
+.container .history .history-box li span {
+  font-size: 2rem;
+}
+.container .history .history-box li span i {
+  margin-left: 0.5rem;
+}
+.container .transaction .transaction-title {
+  font-size: 3.5rem;
+  color: #2e384d;
+  margin-bottom: 1rem;
+  text-shadow: 1px 2px 6px #2e384d;
+}
+.container .transaction .transaction-form {
+  display: flex;
+  flex-direction: column;
+}
+.container .transaction .transaction-form input {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  color: #2e384d;
+  font-size: 1.8rem;
+  font-weight: 500;
+  border: none;
+  border-bottom: 1px solid #2e384d;
+  background-color: rgb(182, 178, 178);
+  box-shadow: 0px 4px 4px #2e384d;
+}
+.container .transaction .transaction-form input:placeholder {
+  color: #2e384d;
+  font-size: 1.8rem;
+  font-weight: #fff;
+}
+.container .transaction .transaction-form button {
+  background-color: #2e384d;
+  padding: 2rem 5rem;
+  font-size: 3rem;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: grab;
+  border-radius: 10px;
+}
+.container .transaction .transaction-form button:hover {
+  box-shadow: 0px 0px 2px 2px #2e384d;
+}/*# sourceMappingURL=style.css.map */
